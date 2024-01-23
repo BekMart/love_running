@@ -189,6 +189,18 @@ hr {
     color: #fafafa;
 }
 
+/* Gallery Page */
+#photos img {
+    width: 100%;
+    /* so that alt text is fully visible if image doesnt load */
+    line-height: 1em;
+}
+
+/* to get rid of line around images */
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
 #social-networks {
     text-align: center;

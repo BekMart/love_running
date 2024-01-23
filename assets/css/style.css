@@ -18,7 +18,9 @@ body {
     font-family: 'Lato', sans-serif;
 }
 
-h1, h2, h3 {
+h1,
+h2,
+h3 {
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     letter-spacing: 2px;
@@ -49,7 +51,7 @@ header a {
     list-style-type: none;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 1em;
 }
 
@@ -109,7 +111,8 @@ main {
     padding-left: 10px;
 }
 
-#cover-text > h2, #cover-text > h3 {
+#cover-text>h2,
+#cover-text>h3 {
     color: #ffffff;
 }
 
@@ -124,12 +127,9 @@ main {
     text-align: center;
     margin-bottom: 20px;
 }
-/* 
-#benefits {
-    display: inline-block;
-} */
 
-#benefits-physical div, #benefits-mental div {
+#benefits-physical>div,
+#benefits-mental>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
@@ -141,6 +141,23 @@ hr {
 
 #benefits p {
     padding: 0 20px;
+}
+
+#circle-cover-bg {
+    background: url(../images/reasons-image.webp) no-repeat top center/cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+/* So that image is centered when viewed in landscape on mobile devise */
+#benefits-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Footer */
@@ -161,6 +178,7 @@ hr {
 
 /* Media query: tablets & larger (768px & above) */
 @media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -174,7 +192,7 @@ hr {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
     }
 
@@ -203,7 +221,7 @@ hr {
 
 /* Large devices: laptops & desktops (992px & above) */
 @media screen and (min-width: 992px) {
-    #menu a:hover{
+    #menu a:hover {
         border-bottom: 1px solid #3a3a3a;
     }
 }

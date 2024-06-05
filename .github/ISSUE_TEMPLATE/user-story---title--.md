@@ -1,0 +1,10 @@
+---
+name: 'USER STORY: <title> '
+about: A template to record user stories within this repository
+title: 'USER STORY: <title> '
+labels: ''
+assignees: ''
+
+---
+
+As a **role**, I can **capabilities**, so that **received benefit**.
